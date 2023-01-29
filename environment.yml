@@ -1,0 +1,12 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - pip
+  - tensorflow=2.3
+  - scipy
+  - scikit-learn
+  - pip:
+      - rdkit-pypi
